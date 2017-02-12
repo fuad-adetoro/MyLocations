@@ -18,7 +18,7 @@ class MapViewController: UIViewController {
     
     var managedObjectContext: NSManagedObjectContext! {
         didSet {
-            NotificationCenter.default.addObserver(forName: Notification.Name.NSManagedObjectContextObjectsDidChange, object: managedObjectContext, queue: OperationQueue.main) { _ in
+            NotificationCenter.default.addObserver(forName: Notification.Name.NSManagedObjectContextObjectsDidChange, object: self, queue: OperationQueue.main) { _ in
                 if self.isViewLoaded {
                     self.updateLocations()
                 }

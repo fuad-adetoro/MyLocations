@@ -22,5 +22,6 @@ extension LocationEntity {
     @NSManaged public var date: Date
     @NSManaged public var category: String
     @NSManaged public var placemark: CLPlacemark?
+    @NSManaged var photoID: NSNumber?
 
 }

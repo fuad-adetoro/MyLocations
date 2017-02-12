@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A25312DC1E50047800FC080D /* UIImage+resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25312DB1E50047800FC080D /* UIImage+resize.swift */; };
 		A2E165841E4B37A8000777D8 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A2E165821E4B37A8000777D8 /* DataModel.xcdatamodeld */; };
 		A2E165871E4B37F8000777D8 /* LocationEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E165851E4B37F8000777D8 /* LocationEntity+CoreDataClass.swift */; };
 		A2E165881E4B37F8000777D8 /* LocationEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E165861E4B37F8000777D8 /* LocationEntity+CoreDataProperties.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A25312DB1E50047800FC080D /* UIImage+resize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+resize.swift"; sourceTree = "<group>"; };
 		A2E165831E4B37A8000777D8 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 		A2E165851E4B37F8000777D8 /* LocationEntity+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "LocationEntity+CoreDataClass.swift"; path = "../LocationEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
 		A2E165861E4B37F8000777D8 /* LocationEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "LocationEntity+CoreDataProperties.swift"; path = "../LocationEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				A2E423F01E439D4A0002F583 /* LocationsViewController.swift */,
 				A2E423F21E439D4A0002F583 /* Main.storyboard */,
 				A2E1658E1E4C1F48000777D8 /* MapViewController.swift */,
+				A25312DB1E50047800FC080D /* UIImage+resize.swift */,
 			);
 			path = MyLocations;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				A2E1658A1E4B76BF000777D8 /* LocationCell.swift in Sources */,
 				A2E1658F1E4C1F48000777D8 /* MapViewController.swift in Sources */,
 				A2E423ED1E439D4A0002F583 /* AppDelegate.swift in Sources */,
+				A25312DC1E50047800FC080D /* UIImage+resize.swift in Sources */,
 				A2E2EA8A1E492FCB00135D68 /* CategoryPickerViewController.swift in Sources */,
 				A2E423EF1E439D4A0002F583 /* CurrentLocationViewController.swift in Sources */,
 				A2E165871E4B37F8000777D8 /* LocationEntity+CoreDataClass.swift in Sources */,
