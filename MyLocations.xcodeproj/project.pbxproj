@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		A25312DC1E50047800FC080D /* UIImage+resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25312DB1E50047800FC080D /* UIImage+resize.swift */; };
+		A2CD6D6A1E50F93B0023248B /* String+AddText.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CD6D691E50F93B0023248B /* String+AddText.swift */; };
+		A2CD6D6C1E51076B0023248B /* MyTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CD6D6B1E51076A0023248B /* MyTabController.swift */; };
+		A2CD6D6E1E5108B40023248B /* MyNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CD6D6D1E5108B40023248B /* MyNavigationController.swift */; };
+		A2CD6D701E5109920023248B /* MyImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CD6D6F1E5109920023248B /* MyImagePickerController.swift */; };
+		A2CD6D731E522C360023248B /* Sound.caf in Resources */ = {isa = PBXBuildFile; fileRef = A2CD6D721E522C360023248B /* Sound.caf */; };
 		A2E165841E4B37A8000777D8 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A2E165821E4B37A8000777D8 /* DataModel.xcdatamodeld */; };
 		A2E165871E4B37F8000777D8 /* LocationEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E165851E4B37F8000777D8 /* LocationEntity+CoreDataClass.swift */; };
 		A2E165881E4B37F8000777D8 /* LocationEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E165861E4B37F8000777D8 /* LocationEntity+CoreDataProperties.swift */; };
@@ -23,11 +28,15 @@
 		A2E423F11E439D4A0002F583 /* LocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E423F01E439D4A0002F583 /* LocationsViewController.swift */; };
 		A2E423F41E439D4A0002F583 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2E423F21E439D4A0002F583 /* Main.storyboard */; };
 		A2E423F61E439D4A0002F583 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2E423F51E439D4A0002F583 /* Assets.xcassets */; };
-		A2E423F91E439D4A0002F583 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2E423F71E439D4A0002F583 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A25312DB1E50047800FC080D /* UIImage+resize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+resize.swift"; sourceTree = "<group>"; };
+		A2CD6D691E50F93B0023248B /* String+AddText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+AddText.swift"; sourceTree = "<group>"; };
+		A2CD6D6B1E51076A0023248B /* MyTabController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTabController.swift; sourceTree = "<group>"; };
+		A2CD6D6D1E5108B40023248B /* MyNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyNavigationController.swift; sourceTree = "<group>"; };
+		A2CD6D6F1E5109920023248B /* MyImagePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyImagePickerController.swift; sourceTree = "<group>"; };
+		A2CD6D721E522C360023248B /* Sound.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sound.caf; sourceTree = "<group>"; };
 		A2E165831E4B37A8000777D8 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 		A2E165851E4B37F8000777D8 /* LocationEntity+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "LocationEntity+CoreDataClass.swift"; path = "../LocationEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
 		A2E165861E4B37F8000777D8 /* LocationEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "LocationEntity+CoreDataProperties.swift"; path = "../LocationEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
@@ -44,7 +53,6 @@
 		A2E423F01E439D4A0002F583 /* LocationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewController.swift; sourceTree = "<group>"; };
 		A2E423F31E439D4A0002F583 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A2E423F51E439D4A0002F583 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A2E423F81E439D4A0002F583 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2E423FA1E439D4A0002F583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,6 +68,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A2CD6D711E522C360023248B /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				A2CD6D721E522C360023248B /* Sound.caf */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
 		A2E1658B1E4C1F10000777D8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -96,7 +112,6 @@
 				A2E2EA8D1E4966E200135D68 /* Functions.swift */,
 				A2E2EA8B1E495D2400135D68 /* HudView.swift */,
 				A2E423FA1E439D4A0002F583 /* Info.plist */,
-				A2E423F71E439D4A0002F583 /* LaunchScreen.storyboard */,
 				A2E165891E4B76BF000777D8 /* LocationCell.swift */,
 				A2E2EA871E48EFE500135D68 /* LocationDetailsViewController.swift */,
 				A2E165851E4B37F8000777D8 /* LocationEntity+CoreDataClass.swift */,
@@ -104,6 +119,11 @@
 				A2E423F01E439D4A0002F583 /* LocationsViewController.swift */,
 				A2E423F21E439D4A0002F583 /* Main.storyboard */,
 				A2E1658E1E4C1F48000777D8 /* MapViewController.swift */,
+				A2CD6D6F1E5109920023248B /* MyImagePickerController.swift */,
+				A2CD6D6D1E5108B40023248B /* MyNavigationController.swift */,
+				A2CD6D6B1E51076A0023248B /* MyTabController.swift */,
+				A2CD6D711E522C360023248B /* Sound */,
+				A2CD6D691E50F93B0023248B /* String+AddText.swift */,
 				A25312DB1E50047800FC080D /* UIImage+resize.swift */,
 			);
 			path = MyLocations;
@@ -174,8 +194,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2E423F91E439D4A0002F583 /* LaunchScreen.storyboard in Resources */,
 				A2E423F61E439D4A0002F583 /* Assets.xcassets in Resources */,
+				A2CD6D731E522C360023248B /* Sound.caf in Resources */,
 				A2E423F41E439D4A0002F583 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -188,7 +208,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2E2EA881E48EFE500135D68 /* LocationDetailsViewController.swift in Sources */,
+				A2CD6D6E1E5108B40023248B /* MyNavigationController.swift in Sources */,
 				A2E165841E4B37A8000777D8 /* DataModel.xcdatamodeld in Sources */,
+				A2CD6D701E5109920023248B /* MyImagePickerController.swift in Sources */,
 				A2E423F11E439D4A0002F583 /* LocationsViewController.swift in Sources */,
 				A2E2EA8C1E495D2400135D68 /* HudView.swift in Sources */,
 				A2E2EA8E1E4966E200135D68 /* Functions.swift in Sources */,
@@ -196,8 +218,10 @@
 				A2E1658A1E4B76BF000777D8 /* LocationCell.swift in Sources */,
 				A2E1658F1E4C1F48000777D8 /* MapViewController.swift in Sources */,
 				A2E423ED1E439D4A0002F583 /* AppDelegate.swift in Sources */,
+				A2CD6D6A1E50F93B0023248B /* String+AddText.swift in Sources */,
 				A25312DC1E50047800FC080D /* UIImage+resize.swift in Sources */,
 				A2E2EA8A1E492FCB00135D68 /* CategoryPickerViewController.swift in Sources */,
+				A2CD6D6C1E51076B0023248B /* MyTabController.swift in Sources */,
 				A2E423EF1E439D4A0002F583 /* CurrentLocationViewController.swift in Sources */,
 				A2E165871E4B37F8000777D8 /* LocationEntity+CoreDataClass.swift in Sources */,
 			);
@@ -212,14 +236,6 @@
 				A2E423F31E439D4A0002F583 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A2E423F71E439D4A0002F583 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A2E423F81E439D4A0002F583 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -320,6 +336,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 729C4GXRX6;
 				INFOPLIST_FILE = MyLocations/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -333,6 +350,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 729C4GXRX6;
 				INFOPLIST_FILE = MyLocations/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
